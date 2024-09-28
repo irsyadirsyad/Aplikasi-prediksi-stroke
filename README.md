@@ -46,7 +46,7 @@ git clone https://github.com/username/stroke-prediction-app.git
 3. Jalankan aplikasi dengan perintah:
 
 ```bash
-python main.py
+python logistic_model_stroke_app.py
 ```
 
 ## Cara Menggunakan
@@ -65,20 +65,6 @@ python main.py
    - **Status Merokok**: Apakah pengguna pernah merokok, tidak pernah merokok, atau masih merokok.
 3. Klik tombol **Prediksi** untuk melihat hasil prediksi.
 4. Hasil prediksi akan ditampilkan di bagian bawah aplikasi.
-
-## Struktur Proyek
-
-```bash
-stroke-prediction-app/
-│
-├── logistic_model_stroke_web.pkl  # Model Logistic Regression yang sudah dilatih
-├── main.py                        # File utama aplikasi Kivy
-└── README.md                      # Dokumentasi proyek
-```
-
-## Contoh Tampilan Aplikasi
-
-![Stroke Prediction App Screenshot](screenshot.png)
 
 ## Model Machine Learning
 
