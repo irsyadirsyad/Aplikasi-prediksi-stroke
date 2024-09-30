@@ -1,28 +1,29 @@
+
 # Stroke Prediction App
 
-Aplikasi **Stroke Prediction** ini dibangun menggunakan Python dan Kivy, dan memprediksi kemungkinan seseorang mengalami stroke berdasarkan input yang diberikan. Aplikasi ini menggunakan model **Logistic Regression** yang telah dilatih sebelumnya untuk memberikan prediksi.
+Aplikasi **Stroke Prediction** ini dibangun menggunakan Python dan **PySimpleGUI**, dan memprediksi kemungkinan seseorang mengalami stroke berdasarkan input yang diberikan. Aplikasi ini menggunakan model **Logistic Regression** yang telah dilatih sebelumnya untuk memberikan prediksi.
 
 ## Fitur Aplikasi
 
 - **Input Data Pengguna**: Pengguna dapat memasukkan informasi seperti usia, tekanan darah, riwayat penyakit jantung, indeks massa tubuh (BMI), serta kebiasaan merokok.
 - **Prediksi Stroke**: Setelah memasukkan data, aplikasi akan memberikan hasil prediksi apakah pengguna kemungkinan mengalami stroke.
-- **Antarmuka yang Sederhana**: Dibangun dengan menggunakan **Kivy**, antarmuka aplikasi ini bersih dan responsif, cocok untuk digunakan di berbagai ukuran layar.
+- **Antarmuka yang Sederhana**: Dibangun dengan menggunakan **PySimpleGUI**, antarmuka aplikasi ini bersih dan mudah digunakan.
 
 ## Persyaratan
 
 Untuk menjalankan aplikasi ini, Anda memerlukan:
 
 - **Python 3.x**
-- **Kivy**: Framework yang digunakan untuk membuat GUI aplikasi.
+- **PySimpleGUI**: Framework yang digunakan untuk membuat GUI aplikasi.
 - **Pandas**: Untuk manipulasi data tabular.
 - **Joblib**: Untuk memuat model machine learning yang sudah disimpan.
 
-### Instalasi Kivy
+### Instalasi PySimpleGUI
 
-Anda bisa menginstal Kivy menggunakan pip:
+Anda bisa menginstal PySimpleGUI menggunakan pip:
 
 ```bash
-pip install kivy
+pip install pysimplegui
 ```
 
 ### Instalasi Dependensi Lainnya
@@ -79,3 +80,4 @@ Model machine learning yang digunakan adalah **Logistic Regression** yang telah 
 - **Pekerjaan**
 - **Tempat Tinggal**
 - **Status Merokok**
+
